@@ -1,16 +1,87 @@
-# React + Vite
+##AI Expense Tracker
+A modern fintech-style full-stack expense tracking application with a highly polished UI, real-time data handling, and analytics-ready architecture.
+Built with a focus on production-level UI/UX, scalability, and clean architecture
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+Real-time expense tracking
+Smart category-based expense organization
+Interactive charts & spending insights
+Prediction-ready backend structure (next-month forecasting)
+Fully responsive (mobile + desktop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Premium UI with:
 
-## React Compiler
+Glassmorphism design
+Smooth animations (Framer Motion)
+Micro-interactions
+Swipe gestures (mobile UX)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
+Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React (Vite)
+Material UI (MUI)
+Zustand (State Management)
+Recharts (Data Visualization)
+Framer Motion (Animations)
+
+Backend
+
+Node.js
+Express.js
+SQLite
+
+Architecture
+
+Frontend → REST API → Express Server → SQLite Database
+
+Clean separation of concerns
+Scalable API structure
+Lightweight database for fast development
+
+UI Highlights
+
+Fintech-inspired dark theme UI
+Pixel-perfect layout inspired by modern product design
+Smooth page transitions and animated components
+Optimized for both mobile and desktop experiences
+
+Setup Instructions
+
+1. Clone Repository
+git clone https://github.com/your-username/ai-expense-tracker.git
+cd ai-expense-tracker
+
+2. Frontend Setup
+cd ai-expense-tracker-frontend
+npm install
+npm run dev
+
+3. Backend Setup
+cd backend
+npm install
+node server.js
+
+API Endpoints
+
+Method	    Endpoint	           Description
+GET	        /api/expenses	       Fetch all expenses
+POST	      /api/expenses	       Add new expense
+
+
+App Screens (In progress) : https://drive.google.com/file/d/1TaZwdCPI1lO10Gybu97cANvAwdRoERGV/view?usp=drive_link
+
+Planned improvements:
+
+AI-based spending predictions
+Expense categorization using ML logic
+Authentication (JWT)
+Deployment (Vercel + Render)
+
+Key Highlights
+
+Focused on real-world product design standards
+Built with scalable and maintainable architecture
+Designed for portfolio + production readiness
