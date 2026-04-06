@@ -52,7 +52,7 @@ Optimized for both mobile and desktop experiences
 Setup Instructions
 
 1. Clone Repository
-git clone https://github.com/your-username/ai-expense-tracker.git
+git clone https://github.com/LekshmyMS-New/AI-Exp-Tracker.git
 cd ai-expense-tracker
 
 2. Frontend Setup
