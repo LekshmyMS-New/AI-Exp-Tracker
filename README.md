@@ -1,4 +1,4 @@
-##AI Expense Tracker
+AI Expense Tracker
 
 A modern fintech-style full-stack expense tracking application with a highly polished UI, real-time data handling, and analytics-ready architecture.
 Built with a focus on production-level UI/UX, scalability, and clean architecture
